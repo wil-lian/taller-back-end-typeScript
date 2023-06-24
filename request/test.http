@@ -1,4 +1,4 @@
-POST http://localhost:5000/
+POST http://localhost:4000/
 content-type: application/json
 
 {
@@ -8,12 +8,12 @@ content-type: application/json
 
 ### este es el servicio get
 ### estos son metadatos datos sobre otros datos
-GET http://localhost:5000/test
+GET http://localhost:4000/test
 content-type: application/json
 
 ### este es el servicio get
 ### estos son metadatos datos sobre otros datos
-POST  http://localhost:5000/test/3?tipo=GET&text=hola
+POST  http://localhost:4000/test/3?tipo=GET&text=hola
 content-type: application/json
 
 {
@@ -25,7 +25,7 @@ content-type: application/json
 }
 
 ### estos son metadatos datos sobre otros datos
-POST  http://localhost:5000/user/crear
+POST  http://localhost:4000/user/create
 content-type: application/json
 
 {
@@ -36,5 +36,5 @@ content-type: application/json
 }
 
 ###
-GET http://localhost:5000/user/list
+GET http://localhost:4000/user/list
 Content-Type: application/json
